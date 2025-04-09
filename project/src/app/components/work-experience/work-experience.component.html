@@ -1,0 +1,31 @@
+<div class="section">
+    <div class="section-title">
+      <h2>💻 Work Experience</h2>
+    </div>
+  
+    <swiper-container
+      [slidesPerView]="1.2"
+      [spaceBetween]="20"
+      [pagination]="true"
+      [breakpoints]="{
+        '640': {
+          slidesPerView: 2.2
+        }
+      }"
+    >
+      <swiper-slide *ngFor="let exp of experiences">
+        <div class="card">
+          <h3>{{ exp.title }}</h3>
+          <h4>{{ exp.company }}</h4>
+          <p class="period">{{ exp.period }}</p>
+          <p>{{ exp.description }}</p>
+          <div class="skills">
+            <span class="badge" *ngFor="let skill of exp.skills">
+              {{ skill }}
+            </span>
+          </div>
+        </div>
+      </swiper-slide>
+    </swiper-container>
+  </div>
+  

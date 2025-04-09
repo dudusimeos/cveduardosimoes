@@ -1,0 +1,29 @@
+<div class="section">
+    <div class="section-title">
+      <h2>🏆 Certifications</h2>
+    </div>
+    
+    <swiper-container
+      [slidesPerView]="1.2"
+      [spaceBetween]="20"
+      [pagination]="true"
+      [breakpoints]="{
+        '640': {
+          slidesPerView: 2.2
+        }
+      }"
+    >
+      <swiper-slide *ngFor="let cert of certifications">
+        <div class="card certification-card">
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div class="cert-icon"></div>
+            <div>
+              <h3 style="margin: 0;">{{cert.title}}</h3>
+              <p style="margin: 0.5rem 0; color: #666;">Issued by {{cert.issuer}}</p>
+              <small>{{cert.date}}</small>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+    </swiper-container>
+  </div>

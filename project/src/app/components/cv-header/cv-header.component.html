@@ -1,0 +1,29 @@
+<div class="header section">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+      <div>
+        <h1 style="margin: 0;">{{ profile.name }}</h1>
+        <p style="margin: 0.5rem 0; color: #666;">{{ profile.title }}</p>
+        <div class="contact-info">
+          <a href="mailto:{{ profile.email }}" class="contact-link">
+            ✉️ {{ profile.email }}
+          </a>
+        </div>
+      </div>
+  
+      <div class="actions">
+        <a href="{{ profile.linkedin }}" target="_blank" class="social-button linkedin">
+          LinkedIn
+        </a>
+        <a href="{{ profile.github }}" target="_blank" class="social-button github">
+          GitHub
+        </a>
+        <!-- <button class="share-button">Share Profile</button> -->
+      </div>
+    </div>
+  
+    <div class="career-objective section">
+      <h2>🎯 Career Objective</h2>
+      <p>{{ profile.objective }}</p>
+    </div>
+  </div>
+  
