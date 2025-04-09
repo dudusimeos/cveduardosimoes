@@ -15,4 +15,25 @@ export class CvHeaderComponent {
     github: 'https://github.com/dudusimeos',
     objective: 'To become a Technical Lead and mentor junior developers while staying at the forefront of web technologies.'
   };
+
+  title = 'darkToggle';
+
+  darkMode = false;
+
+  constructor() {
+    this.detectColorScheme();
+  }
+
+  detectColorScheme() {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      this.darkMode = true;
+    }
+    document.documentElement.setAttribute('data-theme', this.darkMode ? 'dark' : 'light');
+  }
+
+  toggleTheme() {
+    this.darkMode = !this.darkMode;
+    document.documentElement.setAttribute('data-theme', this.darkMode ? 'dark' : 'light');
+  }
+
 }

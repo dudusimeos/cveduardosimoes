@@ -6,11 +6,30 @@
   --primary-color: #034654;
   --background-color: #f8f9fa;
   --text-color: #333;
+  --badge-color: rgba(232,240,254,0.8);
+  --container-color: white;
+  --card-color: #f8f9fa;
+  --toggle-button:rgba(117, 123, 134, 0.8);
+
   /* SWIPER */
   --swiper-pagination-color: #034654;
   --swiper-theme-color: #034654;
   --height: 330px;
+
 }
+
+
+[data-theme="dark"] {
+  --primary-color: #b2ccd3;
+  --background-color: #303235;
+  --text-color: #fdfdfd;
+  --badge-color: #393972;
+  --container-color: #2d3542;
+  --card-color: #303235;
+  --toggle-button: #393972;
+
+}
+
 
 body {
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; */
@@ -24,14 +43,14 @@ body {
 .container {
   max-width: 50%;
   margin:  auto;
-  background: white;
+  background: var(--container-color);
   padding: 3rem;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .badge {
-  background-color:  rgba(232,240,254,0.8);
+  background-color:  var(--badge-color);
   color: var(--primary-color);
   padding: 4px 8px;
   border-radius: 4px;
@@ -51,7 +70,7 @@ body {
 }
 
 .card {
-  background: #f8f9fa;
+  background: var(--card-color);
   padding: 1.5rem;
   border-radius: 8px;
   height: 250px;

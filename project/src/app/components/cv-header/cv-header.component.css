@@ -1,10 +1,11 @@
+
 .actions {
     display: flex;
     gap: 8px;
   }
   
   .share-button,
-  .social-button {
+  .social-button,.toggle-button {
     padding: 8px 16px;
     border-radius: 4px;
     cursor: pointer;
@@ -15,8 +16,8 @@
     border: none;
   }
   
-  .share-button {
-    background: var(--primary-color);
+  .toggle-button {
+    background:var(--toggle-button);
     color: white;
   }
   
@@ -56,4 +57,6 @@
       flex-direction: column;
     }
   }
+
+
   
