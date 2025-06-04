@@ -37,7 +37,7 @@ Este projeto foi construído utilizando as seguintes tecnologias e ferramentas:
 
 ---
 
-## ⚙️ Como Executar Localmente (Opcional)
+## ⚙️ Como Executar Localmente 
 
 Se você deseja executar este projeto localmente, siga os passos abaixo:
 
