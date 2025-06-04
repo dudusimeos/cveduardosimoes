@@ -43,7 +43,7 @@ Se você deseja executar este projeto localmente, siga os passos abaixo:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/dudusimoeos/cveduardosimoes.git](https://github.com/dudusimeos/cveduardosimoes.git)
+    git clone https://github.com/dudusimeos/cveduardosimoes.git
     ```
 2.  **Navegue até o diretório do projeto:**
     ```bash
@@ -53,13 +53,13 @@ Se você deseja executar este projeto localmente, siga os passos abaixo:
    
 ---
 
-## 🤝 Contato
+## 📲 Contato
 
 Eduardo Simões
 
-* **LinkedIn:** [Seu Perfil no LinkedIn](https://www.linkedin.com/in/eduardosimões/)
-* **GitHub:** [@SEU_USUARIO_GITHUB](https://github.com/dudusimeos)
-* **Email:** [seu.email@exemplo.com](mailto:eduardosfsouza@icloud.com)
+* **LinkedIn:** [https://www.linkedin.com/in/eduardosimões/](https://www.linkedin.com/in/eduardosimões/)
+* **GitHub:** [https://github.com/dudusimeos](https://github.com/dudusimeos)
+* **Email:** [eduardosfsouza@icloud.com](mailto:eduardosfsouza@icloud.com)
 ---
 
 Feito por Eduardo Simões.
