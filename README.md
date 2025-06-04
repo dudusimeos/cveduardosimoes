@@ -29,7 +29,7 @@ Este projeto foi construído utilizando as seguintes tecnologias e ferramentas:
 * **Frontend:**
     * HTML5
     * CSS3
-    * JavaScript (Especifique se usou alguma biblioteca ou framework, ex: Vanilla JS, React, Vue.js, etc.)
+    * TypeScript
 * **Hospedagem:**
     * Firebase Hosting
 * **Outras Ferramentas:**
